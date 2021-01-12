@@ -83,8 +83,7 @@ class _InitAppState extends State<InitApp> with TickerProviderStateMixin{
               }
             },
           );
-        }
-        else if(state is IsLogedOut){
+        }else if(state is IsLogedOut){
           return LoginScreen();
         }else{
           return SplashScreen();

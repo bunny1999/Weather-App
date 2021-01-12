@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:weather_app/bloc/Weather/weather_bloc.dart';
-import 'package:weather_app/bloc/Weather/weather_states.dart';
 import 'package:weather_app/widgets/logo.dart';
 import 'package:weather_app/widgets/logo_backgroud_container.dart';
 

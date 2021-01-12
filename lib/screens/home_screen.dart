@@ -106,7 +106,10 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin{
         actions: [
           IconButton(
             icon:Icon(Icons.exit_to_app,color: Colors.black,),
-            onPressed: ()=>authBloc.add(Logout()),
+            onPressed: (){
+              authBloc.add(Logout());
+              weatherBloc.add(NavigateOutWeatherScreen());
+            },
           )
         ],
       ),

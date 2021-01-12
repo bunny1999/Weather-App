@@ -21,9 +21,3 @@ Future<bool> setupLocation() async {
     }
     return true;
   }
-
-  // Future<List<String>> getMyLocation() async{
-  //   String lat,long;
-    
-  //   return [lat,long];
-  // }

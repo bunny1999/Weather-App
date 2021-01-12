@@ -21,6 +21,8 @@ class WeatherBloc extends Bloc<WeatherEvent,WeatherState>{
         print(e);
         yield WeatherLodingFailed();
       }
+    }else if(event is NavigateOutWeatherScreen){
+      yield WeatherIsLoading();
     }else{
       yield WeatherLodingFailed();
     }

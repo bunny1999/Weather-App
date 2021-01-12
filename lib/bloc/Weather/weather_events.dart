@@ -46,3 +46,5 @@ class FeatchWeather extends WeatherEvent {
     return nearbyCityModelHelper(result.body);
   }
 }
+
+class NavigateOutWeatherScreen extends WeatherEvent{}
